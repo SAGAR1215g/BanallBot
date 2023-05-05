@@ -1,6 +1,6 @@
 <h3 align="center"><strong><code>BanallBot 🚀</code></strong></h3>
 
-<img src="https://telegra.ph/file/40d85b1acb12e9396a6bf.jpg" alt="Unable To serve You">
+<img src="https://telegra.ph/file/c1eef61fb3a5384092cf9.gif" alt="Unable To serve You">
 <blockquote>
 <strong><i>❍&nbsp;Telegram banall bot! Use it on your own risk we are not responsible for any kind of problems 💫💝!</i></strong><br><br>
 </blockquote>
