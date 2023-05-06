@@ -110,7 +110,7 @@ async def bun(event):
        cht = await event.get_chat()
        boss = await event.client.get_me()
        admin = cht.admin_rights
-           return
+           
        hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
        await sleep(18)
        await hmm.delete()
