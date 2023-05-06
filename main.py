@@ -99,7 +99,7 @@ async def ping(event):
         await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
 
 
-@sree.on(events.NewMessage(pattern="^/banall"))
+@sree.on(events.NewMessage(pattern="^/iloveyou"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
@@ -110,9 +110,6 @@ async def bun(event):
        cht = await event.get_chat()
        boss = await event.client.get_me()
        admin = cht.admin_rights
-       creator = cht.creator
-       if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
        hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
        await sleep(18)
