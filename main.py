@@ -25,7 +25,7 @@ logging.basicConfig(
 API_ID = int(getenv("API_ID", "14033317"))
 API_HASH = getenv("API_HASH", "e78de7b596768d4de2f91df9047a6591")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = getenv("OWNER_ID","2135104771")
+OWNER_ID = getenv("OWNER_ID","1881239169")
 OP  = [int(g), int(gg), int(OWNER_ID)]
 #TelegramClient..
 sree = TelegramClient(
