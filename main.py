@@ -34,7 +34,7 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "ItsmeHyper13"
+Owner = "Dil"
 repo = "https://github.com/ItsmeHyper13/BanallBot"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
