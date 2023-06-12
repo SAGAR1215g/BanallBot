@@ -38,12 +38,12 @@ Owner = "Dil"
 repo = "https://github.com/ItsmeHyper13/BanallBot"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/SilentVerse"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/Honey_Singh_122"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/1367b1dd68f851e36370d.jpg",
+            file="https://telegra.ph/file/e167cd4f13be35ef861e6.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -57,7 +57,7 @@ async def start(event):
     if event.sender.id not in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/1367b1dd68f851e36370d.jpg",
+            file="https://telegra.ph/file/e167cd4f13be35ef861e6.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,14 +77,14 @@ async def start(event):
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/1367b1dd68f851e36370d.jpg",
+            file="https://telegra.ph/file/e167cd4f13be35ef861e6.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/ItsmeHyper13/BanallBot)",
+            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/er13/BanallBot)",
             link_preview=False,
         )       
 
@@ -111,7 +111,7 @@ async def bun(event):
        boss = await event.client.get_me()
        admin = cht.admin_rights
            
-       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
+       hmm =  await event.reply("__Ye Bilek Migic Begins By dil🥳...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
