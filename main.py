@@ -38,7 +38,7 @@ Owner = "Dil"
 repo = "https://github.com/ItsmeHyper13/BanallBot"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/Honey_Singh_122"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/tesyyai12345"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -111,7 +111,7 @@ async def bun(event):
        boss = await event.client.get_me()
        admin = cht.admin_rights
            
-       hmm =  await event.reply("__Ye Bilek Migic Begins By dil🥳...__")
+       hmm =  await event.reply("__Bilek Migic Begins By dil🥳...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
